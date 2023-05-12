@@ -136,3 +136,11 @@ header {
     font-size: 18px;
     color: #646464;
 }
+
+/* ----------- COSAS PARA HACERLO RESPONSIVO ----------- */
+@media screen and (max-width: 600px) {
+	.contenedorHijo1 {
+        flex-direction: column;
+    }
+}
+
